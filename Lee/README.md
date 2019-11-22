@@ -20,15 +20,15 @@ Soient k=0, le nombre d'itérations et des coordonées (i, j).
 ### Propagation
 
 On parse les noeuds voisins et on leur assigne comme valeur k+1 si et seulement si
-- ce n'est pas la case de départ
-- ce n'est pas un mur
-- ce n'est pas une case déjà balisé
-- ce n'est pas la case finale
+- ce n'est pas la case de départ ;
+- ce n'est pas un mur ;
+- ce n'est pas une case déjà balisé ;
+- ce n'est pas la case finale.
 
 On calcule cmp le nombre total d'étiquettes k et pour chaque case qui a cette signature, on :
-- regarde le voisinage
-- décrémente cmp
-- incrémente k lorsque cmp est rendu à 0
+- regarde le voisinage ;
+- décrémente cmp ;
+- incrémente k lorsque cmp est 0.
 
 ### Backtrace et affichage
 
