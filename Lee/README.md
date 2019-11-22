@@ -14,8 +14,7 @@ L'algorithme de Lee est une solution pour trouver le plus court chemin basée su
 
 ### Initialisation
 
-On place à point de départ et un point d'arrivée. Le point de départ a la valeur 0.
-Soient k=0, le nombre d'itérations et des coordonées (i, j).
+On place un point de départ et un point d'arrivée. Le point de départ égal à 0 et k (le nombre d'itérations) égal à 0.
 
 ### Propagation
 
